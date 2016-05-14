@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Snake Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Snake Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Snake Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-network" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Apple.cpp" />
+		<Unit filename="Apple.h" />
+		<Unit filename="BonusAppleTimeDisplay.cpp" />
+		<Unit filename="BonusAppleTimeDisplay.h" />
+		<Unit filename="Border.cpp" />
+		<Unit filename="Border.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="ButtonFunctions.cpp" />
+		<Unit filename="FadingObject.cpp" />
+		<Unit filename="FadingObject.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GameObjectManager.cpp" />
+		<Unit filename="GameObjectManager.h" />
+		<Unit filename="ImportantHeaders.h" />
+		<Unit filename="MainMenu.cpp" />
+		<Unit filename="MainMenu.h" />
+		<Unit filename="Score.cpp" />
+		<Unit filename="Score.h" />
+		<Unit filename="Snake.cpp" />
+		<Unit filename="Snake.h" />
+		<Unit filename="SoundEffect.cpp" />
+		<Unit filename="SoundEffect.h" />
+		<Unit filename="VisibleGameObject.cpp" />
+		<Unit filename="VisibleGameObject.h" />
+		<Unit filename="Wall.cpp" />
+		<Unit filename="Wall.h" />
+		<Unit filename="WallMaker.cpp" />
+		<Unit filename="WallMaker.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
